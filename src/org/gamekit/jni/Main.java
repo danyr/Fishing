@@ -275,14 +275,14 @@ public void onBackPressed() {
 
 	@Override
 	public boolean onGenericMotion(View arg0, MotionEvent event) {
-		Log.i("danyr","Motion event is:" + event.getDeviceId() + 
-				" X:" + event.getAxisValue(0) +
-				" Y:" + event.getAxisValue(1) +
-				" Z:" + event.getAxisValue(2) +
-				" U:" + event.getAxisValue(8) +
-				" V:" + event.getAxisValue(24) +  
-				" W:" + event.getAxisValue(25)
-				);
+//		Log.i("danyr","Motion event is:" + event.getDeviceId() + 
+//				" X:" + event.getAxisValue(0) +
+//				" Y:" + event.getAxisValue(1) +
+//				" Z:" + event.getAxisValue(2) +
+//				" U:" + event.getAxisValue(8) +
+//				" V:" + event.getAxisValue(24) +  
+//				" W:" + event.getAxisValue(25)
+//				);
 		sendStylus(
 				event.getDeviceId(),
 				event.getAxisValue(0),
