@@ -389,7 +389,7 @@ public abstract class NvGLESActivity extends NvActivity
     /** The number of bits requested for the blue component */
     protected int blueSize    = 8;
     /** The number of bits requested for the alpha component */
-    protected int alphaSize   = 0;
+    protected int alphaSize   = 8;
     /** The number of bits requested for the stencil component */
     protected int stencilSize = 0;
     /** The number of bits requested for the depth component */
